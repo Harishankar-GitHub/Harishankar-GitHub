@@ -1,5 +1,13 @@
 ### Hi there 👋
 
+#### About me
+- I work as a ***Software Engineer - II*** and have around ***3.5 years*** of total experience in the below highlighted technologies!
+
+> **Java | Go | Golang | REST API | Microservices | Docker | Kubernetes | AWS Certified Solutions Architect - Associate (SAA-C02) | Backend Developer | Software Developer | Software Engineer - II**
+
+#### Here're the links to my profiles
+- [LinkedIn](https://www.linkedin.com/in/Harishankar97) | [Stackoverflow](https://stackoverflow.com/users/17200622/harishankar-bhat-r) | [Credly Badges](https://www.credly.com/users/harishankar97/badges) | [Twitter](https://twitter.com/harishankar97) | [Polywork](http://poly.work/harishankar97)
+
 <!--
 **Harishankar-GitHub/Harishankar-GitHub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
