@@ -7,6 +7,12 @@
 
 #### Here're the links to my profiles
 - [LinkedIn](https://www.linkedin.com/in/Harishankar97) | [Stackoverflow](https://stackoverflow.com/users/17200622/harishankar-bhat-r) | [Credly Badges](https://www.credly.com/users/harishankar97/badges) | [Twitter](https://twitter.com/harishankar97) | [Polywork](http://poly.work/harishankar97)
+  
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=harishankar-github&show_icons=true&locale=en" alt="harishankar-github" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=harishankar-github&" alt="harishankar-github" /></p>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=harishankar-github&label=Profile%20views&color=0e75b6&style=flat" alt="harishankar-github" /> </p>
 
 <!--
 **Harishankar-GitHub/Harishankar-GitHub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
