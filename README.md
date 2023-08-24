@@ -1,9 +1,9 @@
 ### Hi there 👋
 
 #### About me
-- I work as a ***Software Engineer - II*** and have around ***4.5 years*** of total experience in the below highlighted technologies!
+- I work as a ***Senior Software Engineer*** having ***5+ years*** of total experience in the below technologies!
 
-> **Java | Go | Golang | REST API | Microservices | Docker | Kubernetes | Systems Design | AWS Certified Solutions Architect - Associate (SAA-C02) | Backend Developer | Software Developer | Software Development Engineer | Software Engineer - II**
+> **Java | Javascript | Golang | REST API | Spring Boot | JPA | Hibernate | Spring Security | Microservices | Docker | Kubernetes | Systems Design | AWS Certified Solutions Architect - Associate (SAA-C02)**
 
 #### Here're the links to my profiles
 > [LinkedIn](https://www.linkedin.com/in/Harishankar97) | [Stackoverflow](https://stackoverflow.com/users/17200622/harishankar-bhat-r) | [Credly Badges](https://www.credly.com/users/harishankar97/badges) | [Twitter](https://twitter.com/harishankar97) | [Polywork](http://poly.work/harishankar97)
