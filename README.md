@@ -1,9 +1,9 @@
 ### Hi there 👋
 
 #### About me
-- I work as a ***Senior Software Engineer*** having ***5.5 years*** of total experience in the below tools and technologies!
+- I work as a ***Senior Software Engineer*** having ***6 years*** of total experience in the below tools and technologies!
 
-> **Java | Javascript | Golang | Data Structures and Algorithms | REST API | Spring Boot | JPA | Hibernate | Spring Security | Microservices | Unit Testing (JUnit and Mockito Frameworks) | Docker | Kubernetes | Systems Design**
+> **Java | Golang | Javascript | REST API | Spring Boot | JPA | Hibernate | Spring Security | Microservices | Unit Testing (JUnit and Mockito Frameworks) | Docker | Kubernetes | Data Structures and Algorithms | Systems Design**
 
 #### Certifications
 >- [AWS Certified Solutions Architect - Associate (SAA-C02)](https://www.credly.com/users/harishankar97/badges)
@@ -15,3 +15,5 @@
 >- [Credly Badges](https://www.credly.com/users/harishankar97/badges)
 >- [Polywork](http://poly.work/harishankar97)
 >- [Twitter](https://twitter.com/harishankar97)
+
+#### Thanks!
