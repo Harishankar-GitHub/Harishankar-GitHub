@@ -1,6 +1,6 @@
 # Hey, I'm Harishankar 👋
 
-Software Engineer with 7+ years of experience building backend systems, microservices, and — more recently — AI tools and agents. Based in Ireland, with a strong foundation in data structures, algorithms, and systems design.
+Software Engineer with 8+ years of experience building backend systems, microservices, and — more recently — AI tools and agents. Based in Ireland, with a strong foundation in data structures, algorithms, and systems design.
 
 I enjoy working at the intersection of **software engineering and AI** — writing clean, well-tested code and exploring how LLMs can be put to practical use in developer workflows.
 
