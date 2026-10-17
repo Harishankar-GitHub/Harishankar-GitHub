@@ -27,6 +27,15 @@ README = ROOT / "README.md"
 # too narrow for the wide images, so the narrow ones are served instead.
 NARROW = "(max-width: 1011px)"
 
+# Never combine NARROW with prefers-color-scheme in one media query. To follow
+# the GitHub theme setting (rather than the OS), GitHub's JavaScript replaces
+# the whole media attribute of any <source> that mentions prefers-color-scheme
+# with "all" or "not all", dropping the width condition. A combined
+# "(max-width) and (prefers-color-scheme: dark)" source therefore wins on
+# desktop in dark mode. So the narrow images come in one theme-independent
+# style (the dark card, like the header) and their <source> has no colour query.
+NARROW_THEME = "dark"
+
 WIDE_W = 860
 NARROW_W = 400
 
@@ -508,9 +517,10 @@ def stack_alt(groups):
 
 # ================================================================ README
 def picture(name, alt):
+    # Order matters: the width source must come first and must not mention
+    # prefers-color-scheme (see NARROW_THEME above).
     return (f'<picture>\n'
-            f'  <source media="{NARROW} and (prefers-color-scheme: dark)" srcset="assets/{name}-narrow-dark.svg">\n'
-            f'  <source media="{NARROW}" srcset="assets/{name}-narrow-light.svg">\n'
+            f'  <source media="{NARROW}" srcset="assets/{name}-narrow.svg">\n'
             f'  <source media="(prefers-color-scheme: dark)" srcset="assets/{name}-dark.svg">\n'
             f'  <img src="assets/{name}-light.svg" alt="{esc(alt)}">\n'
             f'</picture>')
@@ -557,9 +567,9 @@ def build() -> dict[Path, str]:
         out[ASSETS / f"btn-{slug(lk['label'])}.svg"] = button(lk)
     for theme in THEMES:
         out[ASSETS / f"career-{theme}.svg"] = career_wide(data["jobs"], theme)
-        out[ASSETS / f"career-narrow-{theme}.svg"] = career_narrow(data["jobs"], theme)
         out[ASSETS / f"stack-{theme}.svg"] = stack(data["stack"], theme, narrow=False)
-        out[ASSETS / f"stack-narrow-{theme}.svg"] = stack(data["stack"], theme, narrow=True)
+    out[ASSETS / "career-narrow.svg"] = career_narrow(data["jobs"], NARROW_THEME)
+    out[ASSETS / "stack-narrow.svg"] = stack(data["stack"], NARROW_THEME, narrow=True)
     out[README] = update_readme(README.read_text(encoding="utf-8"), readme_blocks(data, header_alt))
     return out
 

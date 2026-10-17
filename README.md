@@ -27,8 +27,7 @@ Lately I'm just as focused on **AI agents**: putting LLMs, the Model Context Pro
 
 <!-- profile:career:start (generated from scripts/profile.toml, edit that file instead) -->
 <picture>
-  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/career-narrow-dark.svg">
-  <source media="(max-width: 1011px)" srcset="assets/career-narrow-light.svg">
+  <source media="(max-width: 1011px)" srcset="assets/career-narrow.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/career-dark.svg">
   <img src="assets/career-light.svg" alt="Career timeline: Infosys, India, 2018–2021, Senior Systems Engineer, Enterprise payments for Verizon &amp; AT&amp;T. Philips, India, 2021–2023, Software Engineer II, HealthSuite Platform. Epsilon, India, 2023–2024, Senior Software Engineer, Connect Platform. Ericsson, Ireland, 2024–present, Software Engineer, rApps on the Intelligent Automation Platform.">
 </picture>
@@ -38,8 +37,7 @@ Lately I'm just as focused on **AI agents**: putting LLMs, the Model Context Pro
 
 <!-- profile:stack:start (generated from scripts/profile.toml, edit that file instead) -->
 <picture>
-  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/stack-narrow-dark.svg">
-  <source media="(max-width: 1011px)" srcset="assets/stack-narrow-light.svg">
+  <source media="(max-width: 1011px)" srcset="assets/stack-narrow.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
   <img src="assets/stack-light.svg" alt="Tech stack. Languages: Java, Python. Backend: Spring Boot, Spring Security, JPA / Hibernate, Flask, FastAPI, REST APIs, Microservices. AI &amp; agents: AI agents, LLM integrations, Prompt engineering, MCP, Kiro IDE &amp; CLI, Amazon Q. Data &amp; messaging: PostgreSQL, Oracle SQL, Redis, Apache Kafka, RabbitMQ. DevOps: Docker, Kubernetes, Jenkins, Spinnaker, Git, GitHub. Testing: JUnit 5, Mockito, Pytest, Postman.">
 </picture>
