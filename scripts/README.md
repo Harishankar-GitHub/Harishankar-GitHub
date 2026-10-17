@@ -42,8 +42,11 @@ For things with no logo, use one of the built-in symbols: `sparkle`, `db`,
 
 - Every image is built in two sizes. GitHub shows the narrow version on phones
   and small windows (below 1012px wide) and the wide version on desktop.
-- The career and tech stack images have light and dark variants that follow the
-  viewer's GitHub theme.
+- On desktop, the career and tech stack images have light and dark variants
+  that follow the viewer's GitHub theme. The narrow versions use the dark card
+  style in both themes, like the header. This is deliberate: GitHub rewrites
+  any image rule that mentions light/dark mode and drops its screen-width
+  condition, so width and theme can't be combined in one rule.
 - Text is converted to vector outlines with the fonts in `scripts/fonts/`, so
   the images look the same on every device and need no web fonts or
   third-party image services.
