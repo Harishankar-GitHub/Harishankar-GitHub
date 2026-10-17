@@ -1,6 +1,10 @@
+<!-- profile:header:start (generated from scripts/profile.toml, edit that file instead) -->
 <div align="center">
 
-<p><img src="assets/header.svg" alt="Harishankar Bhat R — Software Engineer, backend systems and AI agents" width="100%"></p>
+<p><a href="https://harishankar-github.github.io/"><picture>
+  <source media="(max-width: 1011px)" srcset="assets/header-narrow.svg">
+  <img src="assets/header.svg" alt="Harishankar Bhat R — Software Engineer, Backend systems &amp; AI agents">
+</picture></a></p>
 
 <a href="https://www.linkedin.com/in/Harishankar97"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="36"></a>&nbsp;
 <a href="https://harishankar-github.github.io/"><img src="assets/btn-portfolio.svg" alt="Portfolio" height="36"></a>&nbsp;
@@ -9,32 +13,37 @@
 <a href="https://www.credly.com/users/harishankar97/badges"><img src="assets/btn-credly.svg" alt="Credly" height="36"></a>
 
 </div>
+<!-- profile:header:end -->
 
 ## 👋 About me
 
-I'm a backend engineer with **8+ years** of building platforms across payments, healthcare, marketing tech and telecom: enterprise payments for Verizon and AT&T at Infosys, the HealthSuite platform at Philips, the Connect platform at Epsilon, and now network automation at **Ericsson** in Ireland.
+I've been building backend systems since 2018, across payments, healthcare and marketing tech, and now telecom at **Ericsson** in Ireland. My core is Java and Spring Boot microservices, Python services, and event-driven systems on Kafka and RabbitMQ.
 
-Lately I've been just as focused on **AI agents**: putting LLMs to practical use inside everyday developer workflows, from automated code review to MCP-powered tools.
+Lately I'm just as focused on **AI agents**: putting LLMs, the Model Context Protocol (MCP) and solid prompt engineering to practical use in everyday developer workflows, from automated code review to MCP-powered tools.
 
-- 🔭 **Now:** building rApps on the Ericsson Intelligent Automation Platform (EIAP)
-- 🤖 **Exploring:** AI agents, the Model Context Protocol (MCP) and prompt engineering
-- 🧱 **Core strengths:** Java & Spring Boot microservices, Python services, event-driven systems with Kafka and RabbitMQ
-- 💬 **Ask me about:** microservice design, Spring Boot, Kafka, or making LLMs genuinely useful for developers
-- 🎓 **Education:** B.E. Computer Science & Engineering, Panimalar Institute of Technology (Anna University, Chennai, India), 2018
+🎓 **Education:** B.E. Computer Science & Engineering, Panimalar Institute of Technology (Anna University, Chennai, India), 2018
 
 ## 🧭 Career
 
+<!-- profile:career:start (generated from scripts/profile.toml, edit that file instead) -->
 <picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/career-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset="assets/career-narrow-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/career-dark.svg">
-  <img src="assets/career-light.svg" alt="Career timeline: Infosys, 2018–2021, Senior Systems Engineer, enterprise payments for Verizon and AT&T. Philips, 2021–2023, Software Engineer II, HealthSuite Platform. Epsilon, 2023–2024, Senior Software Engineer, Connect Platform. Ericsson Ireland, 2024–present, Software Engineer, rApps on the Intelligent Automation Platform." width="100%">
+  <img src="assets/career-light.svg" alt="Career timeline: Infosys, India, 2018–2021, Senior Systems Engineer, Enterprise payments for Verizon &amp; AT&amp;T. Philips, India, 2021–2023, Software Engineer II, HealthSuite Platform. Epsilon, India, 2023–2024, Senior Software Engineer, Connect Platform. Ericsson, Ireland, 2024–present, Software Engineer, rApps on the Intelligent Automation Platform.">
 </picture>
+<!-- profile:career:end -->
 
 ## 🛠️ Tech stack
 
+<!-- profile:stack:start (generated from scripts/profile.toml, edit that file instead) -->
 <picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/stack-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset="assets/stack-narrow-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack. Languages: Java, Python. Backend: Spring Boot, Spring Security, JPA/Hibernate, Flask, FastAPI, REST APIs, microservices. AI and agents: AI agents, LLM integrations, prompt engineering, MCP, Kiro IDE and CLI, Amazon Q. Data and messaging: PostgreSQL, Oracle SQL, Redis, Apache Kafka, RabbitMQ. DevOps: Docker, Kubernetes, Jenkins, Spinnaker, Git, GitHub. Testing: JUnit 5, Mockito, Pytest, Postman." width="100%">
+  <img src="assets/stack-light.svg" alt="Tech stack. Languages: Java, Python. Backend: Spring Boot, Spring Security, JPA / Hibernate, Flask, FastAPI, REST APIs, Microservices. AI &amp; agents: AI agents, LLM integrations, Prompt engineering, MCP, Kiro IDE &amp; CLI, Amazon Q. Data &amp; messaging: PostgreSQL, Oracle SQL, Redis, Apache Kafka, RabbitMQ. DevOps: Docker, Kubernetes, Jenkins, Spinnaker, Git, GitHub. Testing: JUnit 5, Mockito, Pytest, Postman.">
 </picture>
+<!-- profile:stack:end -->
 
 ---
 
