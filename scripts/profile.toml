@@ -1,0 +1,141 @@
+# Everything shown in the profile images comes from this file.
+#
+# Edit it, then either run `python scripts/build_assets.py` or just commit and
+# push: the "Build profile images" GitHub Action rebuilds the images (and the
+# matching parts of README.md) for you. See scripts/README.md for details.
+
+# ---------------------------------------------------------------- header
+[header]
+name = "Harishankar Bhat R"
+tagline = "Software Engineer · Backend systems & AI agents"
+focus = ["Java", "Spring Boot", "Python", "Microservices", "Kafka", "Kubernetes", "LLMs"]
+now = "Building rApps at Ericsson, Ireland · AI agents for dev workflows on the side"
+# Where a click on the header image goes.
+link = "https://harishankar-github.github.io/"
+
+# ---------------------------------------------------------------- link buttons
+# icon: "linkedin", "globe", "mediummark", "award", or a file name from
+# scripts/icons (without .svg). color is the icon colour as hex, no "#".
+[[links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/Harishankar97"
+icon = "linkedin"
+
+[[links]]
+label = "Portfolio"
+url = "https://harishankar-github.github.io/"
+icon = "globe"
+color = "58A6FF"
+
+[[links]]
+label = "Stack Overflow"
+url = "https://stackoverflow.com/users/17200622/harishankar-bhat-ramachandra"
+icon = "stackoverflow"
+color = "F58025"
+
+[[links]]
+label = "Medium"
+url = "https://harishankar97.medium.com/"
+icon = "mediummark"
+color = "E6EDF3"
+
+[[links]]
+label = "Credly"
+url = "https://www.credly.com/users/harishankar97/badges"
+icon = "award"
+color = "FF8A3D"
+
+# ---------------------------------------------------------------- career
+# Oldest first. Set current = true on the job you're in now.
+[[jobs]]
+years = "2018 – 2021"
+company = "Infosys"
+role = "Senior Systems Engineer"
+work = "Enterprise payments for Verizon & AT&T"
+country = "India"
+
+[[jobs]]
+years = "2021 – 2023"
+company = "Philips"
+role = "Software Engineer II"
+work = "HealthSuite Platform"
+country = "India"
+
+[[jobs]]
+years = "2023 – 2024"
+company = "Epsilon"
+role = "Senior Software Engineer"
+work = "Connect Platform"
+country = "India"
+
+[[jobs]]
+years = "2024 – now"
+company = "Ericsson"
+role = "Software Engineer"
+work = "rApps on the Intelligent Automation Platform"
+country = "Ireland"
+current = true
+
+# ---------------------------------------------------------------- tech stack
+# icon: a file name from scripts/icons (without .svg), or one of the built-in
+# symbols: sparkle, db, braces, nodes, check. color is the brand colour as hex,
+# no "#" (simpleicons.org lists both the icon and its colour for most tools).
+[[stack]]
+group = "Languages"
+items = [
+  { name = "Java", icon = "openjdk", color = "ED8B00" },
+  { name = "Python", icon = "python", color = "3776AB" },
+]
+
+[[stack]]
+group = "Backend"
+items = [
+  { name = "Spring Boot", icon = "springboot", color = "6DB33F" },
+  { name = "Spring Security", icon = "springsecurity", color = "6DB33F" },
+  { name = "JPA / Hibernate", icon = "hibernate", color = "59666C" },
+  { name = "Flask", icon = "flask", color = "3BABC3" },
+  { name = "FastAPI", icon = "fastapi", color = "009688" },
+  { name = "REST APIs", icon = "braces" },
+  { name = "Microservices", icon = "nodes" },
+]
+
+[[stack]]
+group = "AI & agents"
+items = [
+  { name = "AI agents", icon = "sparkle" },
+  { name = "LLM integrations", icon = "sparkle" },
+  { name = "Prompt engineering", icon = "sparkle" },
+  { name = "MCP", icon = "modelcontextprotocol", color = "000000" },
+  { name = "Kiro IDE & CLI", icon = "sparkle" },
+  { name = "Amazon Q", icon = "sparkle" },
+]
+
+[[stack]]
+group = "Data & messaging"
+items = [
+  { name = "PostgreSQL", icon = "postgresql", color = "4169E1" },
+  { name = "Oracle SQL", icon = "db" },
+  { name = "Redis", icon = "redis", color = "FF4438" },
+  { name = "Apache Kafka", icon = "apachekafka", color = "231F20" },
+  { name = "RabbitMQ", icon = "rabbitmq", color = "FF6600" },
+]
+
+[[stack]]
+group = "DevOps"
+items = [
+  { name = "Docker", icon = "docker", color = "2496ED" },
+  { name = "Kubernetes", icon = "kubernetes", color = "326CE5" },
+  { name = "Jenkins", icon = "jenkins", color = "D24939" },
+  { name = "Spinnaker", icon = "spinnaker", color = "139BB4" },
+  { name = "Git", icon = "git", color = "F03C2E" },
+  { name = "GitHub", icon = "github", color = "181717" },
+]
+
+[[stack]]
+group = "Testing"
+items = [
+  { name = "JUnit 5", icon = "junit5", color = "25A162" },
+  { name = "Mockito", icon = "check" },
+  { name = "Pytest", icon = "pytest", color = "0A9EDC" },
+  { name = "Postman", icon = "postman", color = "FF6C37" },
+]
